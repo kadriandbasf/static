@@ -1,0 +1,18 @@
+[
+	{ "keys": ["alt+j"], "command": "find_under_expand" },
+	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
+	{ "keys": ["shift+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["alt+t"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["alt+y"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["ctrl+shift+u"], "command": "upper_case" },
+	{ "keys": ["ctrl+shift+l"], "command": "lower_case" },
+	{ "keys": ["ctrl+alt+left"], "command": "soft_undo" },
+	{ "keys": ["ctrl+alt+right"], "command": "soft_redo" },
+	{ "keys": ["alt+f"], "command": "reindent" },
+	{ "keys": ["alt+e"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+	{ "keys": ["alt+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
+	{ "keys": ["alt+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} },
+	{ "keys": ["ctrl+shift+keypad_minus"], "command": "fold" },
+	{ "keys": ["ctrl+shift+keypad_plus"], "command": "unfold" },
+]
